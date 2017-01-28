@@ -1,5 +1,5 @@
 # n OSX, .bash_profile is used instead of .bashrc. https://stackoverflow.com/questions/21369953/need-help-installing-junit-on-mac-how-to-add-junit-to-path-environmental-variabl
-
+# 1/28/17 - export PATH=/usr/local/bin:$PATH tells macos to look for libraries/binaries along the homebrew path before it searches the system path http://www.pyimagesearch.com/2016/12/19/install-opencv-3-on-macos-with-homebrew-the-easy-way/
 export PATH="$HOME/anaconda/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
 
 # added by Anaconda 2.3.0 installer
