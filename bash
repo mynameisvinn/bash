@@ -61,3 +61,6 @@ export CLASSPATH="$CLASSPATH:$JUNIT_HOME/junit-4.12.jar:$JUNIT_HOME/hamcrest-cor
 # added on 1/6/17 while trying out gearvr
 # https://apple.stackexchange.com/questions/119125/mac-os-x-mavericks-add-to-path
 export PATH="/Users/vincenttang/Library/Android/sdk/platform-tools:$PATH"
+
+# 4/9/17 - adding goog search script to path
+export PATH=$PATH:bin
