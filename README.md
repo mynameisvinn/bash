@@ -8,10 +8,13 @@ vin's bash_profile
 to execute "$ adb devices" outside of its folder, do:
 ```
 cd 
-export PATH="/Users/vincenttang/Library/Android/sdk/platform-tools:$PATH" #this is where adb executable can be found
+export PATH="/Users/vincenttang/Library/Android/sdk/platform-tools:$PATH"  # this is where adb executable can be found
 source .bash_profile
 ```
 now you execute adb devices anywhere.
+
+#### another example
+place goog.sh in ~/bin. (bin usually stores user's personal scripts). then, update path so it's executable from anywhere (ie outside of bin folder) by doing ```$ export PATH=$PATH:bin```.
 
 reference: https://apple.stackexchange.com/questions/119125/mac-os-x-mavericks-add-to-path
 
